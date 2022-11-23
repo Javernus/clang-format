@@ -1,0 +1,29 @@
+BasedOnStyle: Google
+IndentWidth: 2
+---
+Language: Cpp
+ColumnLimit: 120
+
+Cpp11BracedListStyle: false
+SpaceAfterCStyleCast: true
+DerivePointerAlignment: false
+PointerAlignment: Left
+BreakBeforeBinaryOperators: NonAssignment
+BinPackArguments: false
+BinPackParameters: false
+AlignAfterOpenBracket: Align
+AllowAllArgumentsOnNextLine: false
+AlignArrayOfStructures: Right
+AlignConsecutiveAssignments: Consecutive
+AlignConsecutiveBitFields: Consecutive
+AlignConsecutiveDeclarations: Consecutive
+AlignConsecutiveMacros: Consecutive
+AlignOperands: Align
+# PenaltyBreakAssignment: 20
+# PenaltyBreakBeforeFirstCallParameter: 50
+# PenaltyIndentedWhitespace: 0
+AllowAllParametersOfDeclarationOnNextLine: false
+AlwaysBreakBeforeMultilineStrings: false
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortBlocksOnASingleLine: Empty
+# AlwaysBreakAfterReturnType: All
